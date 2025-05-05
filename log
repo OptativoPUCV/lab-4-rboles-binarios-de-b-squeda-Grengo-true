@@ -51,3 +51,15 @@ treemap.c:103:31: error: implicit declaration of function 'minimun' [-Werror=imp
 treemap.c:103:31: error: initialization makes pointer from integer without a cast [-Werror=int-conversion]
 cc1.exe: all warnings being treated as errors
 2db7a40
+Sun, May  4, 2025  9:24:49 PM: 
+ treemap.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+Compilation failed
+In file included from test.c:4:0:
+treemap.c: In function 'removeNode':
+treemap.c:103:31: error: implicit declaration of function 'minimun' [-Werror=implicit-function-declaration]
+         TreeNode * minRight = minimun(node->right);
+                               ^~~~~~~
+treemap.c:103:31: error: initialization makes pointer from integer without a cast [-Werror=int-conversion]
+cc1.exe: all warnings being treated as errors
+203bc7e
