@@ -93,3 +93,9 @@ treemap.c:103:30: error: implicit declaration of function 'minimun' [-Werror=imp
 treemap.c:103:30: error: initialization makes pointer from integer without a cast [-Werror=int-conversion]
 cc1.exe: all warnings being treated as errors
 1288649
+Sun, May  4, 2025  9:27:13 PM: 
+ treemap.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  18|3
+total_score: 40/70
+20dbe20
